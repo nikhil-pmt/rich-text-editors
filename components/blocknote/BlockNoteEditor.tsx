@@ -8,6 +8,7 @@ import "@blocknote/shadcn/style.css";
 export default function Editor() {
   const editor = useCreateBlockNote();
 
+  
   return (
     <BlockNoteView
       editor={editor}
