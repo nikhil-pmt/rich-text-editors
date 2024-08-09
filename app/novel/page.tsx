@@ -10,7 +10,7 @@ type NovelEditorProps = {
   content: string | undefined;
 };
 
-const NovelEditorPage = (props: NovelEditorProps) => {
+export default function NovelEditorPage(props: NovelEditorProps) {
   const [content, setContent] = useState<JSONContent[] | undefined>([
     {
       type: "paragraph",
@@ -32,6 +32,4 @@ const NovelEditorPage = (props: NovelEditorProps) => {
       />
     </div>
   );
-};
-
-export default NovelEditorPage;
+}
