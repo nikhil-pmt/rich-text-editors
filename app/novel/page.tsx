@@ -4,13 +4,7 @@ import { useState } from "react";
 import NovelEditor from "@/components/novel/NovelEditor";
 import { JSONContent } from "@tiptap/react";
 
-type NovelEditorProps = {
-  setContent: any;
-  title: string;
-  content: string | undefined;
-};
-
-export default function NovelEditorPage(props: NovelEditorProps) {
+export default function NovelEditorPage() {
   const [content, setContent] = useState<JSONContent[] | undefined>([
     {
       type: "paragraph",
