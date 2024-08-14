@@ -12,6 +12,7 @@
     "@blocknote/core": "^0.15.4",
     "@blocknote/react": "^0.15.4",
     "@blocknote/shadcn": "^0.15.4",
+    "@Permitech/design-system": "^0.0.265",
     "@radix-ui/react-popover": "^1.1.1",
     "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
